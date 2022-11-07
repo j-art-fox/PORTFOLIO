@@ -1,18 +1,34 @@
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Logo from "./Logo";
 
 const navigation = [
-  { name: "About", href: "/about", current: true },
-  { name: "Work", href: "/work", current: false },
-  { name: "Github", href: "https://github.com/j-art-fox", current: false },
-  { name: "Contact", href: "/contact", current: false },
-  { name: "Resume", href: "/resume", current: false },
+  { name: "About", to: "/about", current: true },
+  { name: "Work", to: "/work", current: false },
+  { name: "Github", to: "/github", current: false },
+  { name: "Contact", to: "/contact", current: false },
+  { name: "Resume", to: "/resume", current: false },
 ];
 
+// How to make the thing you click on be "active/curent" how can I make this work?
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
+}
+
+// How to make the thing you click on be "active/curent" how can I make this work?
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isCurrent = useMatch({ path: resolvedPath.pathname, end: true })
+
+  return (
+    <li className={isCurrent ? "current" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
 }
 
 export default function Example() {
@@ -40,12 +56,12 @@ export default function Example() {
                 <Logo/>
 
                 {/* Adds links for various "pages onto the Nav menu" */}
-                <div id="test 1" className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                <div  className="hidden sm:ml-6 sm:block">
+                  <ul className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <CustomLink
                         key={item.name}
-                        href={item.href}
+                        to={item.to}
                         className={classNames(
                           item.current
                             ? "bg-amber-400 text-white font-bold"
@@ -55,9 +71,9 @@ export default function Example() {
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </a>
+                      </CustomLink>
                     ))}
-                  </div>
+                  </ul>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
