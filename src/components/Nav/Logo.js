@@ -3,11 +3,6 @@ import logo from "../../Images/logo_1.png";
 
 export default function Logo() {
   return (
-    //   <img
-    //   className="block h-8 w-auto lg:hidden"
-    //   src={logo}
-    //   alt="Your Company"
-    // />
     <div className="flex flex-shrink-0 items-center">
       <img
         className="block h-8 w-auto lg:hidden"

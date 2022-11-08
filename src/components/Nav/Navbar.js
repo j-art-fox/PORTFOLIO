@@ -20,11 +20,19 @@ function classNames(...classes) {
 // How to make the thing you click on be "active/curent" how can I make this work?
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to)
+  // console.log(resolvedPath)
   const isCurrent = useMatch({ path: resolvedPath.pathname, end: true })
+  console.log(isCurrent)
+  const className = classNames(
+    isCurrent
+      ? "bg-amber-400 text-white font-bold"
+      : "text-white hover:bg-amber-600 hover:text-white hover:font-semibold",
+    "px-3 py-2 rounded-md text-sm font-medium"
+  )
 
   return (
     <li className={isCurrent ? "current" : ""}>
-      <Link to={to} {...props}>
+      <Link to={to} {...props} current={!isCurrent } className={className}>
         {children}
       </Link>
     </li>
@@ -62,12 +70,6 @@ export default function Example() {
                       <CustomLink
                         key={item.name}
                         to={item.to}
-                        className={classNames(
-                          item.current
-                            ? "bg-amber-400 text-white font-bold"
-                            : "text-white hover:bg-amber-600 hover:text-white hover:font-semibold",
-                          "px-3 py-2 rounded-md text-sm font-medium"
-                        )}
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
