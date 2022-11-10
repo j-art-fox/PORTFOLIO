@@ -30,13 +30,13 @@ export default function About() {
         <div class="container px-5 py-12 mx-auto">
           <div class="">
             <img
-              class="w-2/3 inline pb-6"
+              class="w-2/3 inline"
               src={images[imageIdx]}
               alt="An Image"
             />
           </div>
-          <div>
-            <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20 transition-opacity">
+          <div class="bg-gray-100 shadow">
+            <h1 class="sm:text-3xl text-2xl py-3 font-medium title-font text-center text-gray-900 mb-20 transition-opacity">
               Hi there!
               <br class="sm:block" />
               The name's Jay,

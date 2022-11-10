@@ -6,6 +6,7 @@ import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import Github from "./components/Pages/Github";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/work" element={<Work />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
