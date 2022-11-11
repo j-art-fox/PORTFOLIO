@@ -4,7 +4,7 @@ import gitHubGistLogo from "../../Images/GitHubGistlogo.png";
 export default function Github() {
   return (
     <section class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -mx-4 -mb-10 text-center">
           <div class="sm:w-1/2 mb-10 px-4">
             <div class="rounded-lg h-64 overflow-hidden">

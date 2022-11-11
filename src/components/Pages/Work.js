@@ -52,6 +52,7 @@ const projects = [
   },
 ];
 
+//COME BACK TO THIS
 // const ProjectList = projects.forEach((i) => {
 //   return (
 //     <div class="lg:w-1/3 sm:w-1/2 p-4">
