@@ -5,7 +5,7 @@ import Navbar from "./components/Nav/Navbar";
 import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import Github from "./components/Pages/Github";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Switch, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -14,6 +14,8 @@ function App() {
       <Navbar />
       <div className="App">
         <Routes>
+          <Route path="/" element={<Navigate to="/about"/>}
+          />          
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path='/github' element={<Github />} />
