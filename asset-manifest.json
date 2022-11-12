@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PORTFOLIO/static/css/main.799a08ec.css",
+    "main.js": "/PORTFOLIO/static/js/main.024b243f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/PORTFOLIO/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pp5.png": "/PORTFOLIO/static/media/pp5.a80e86b5218157420e0c.png",
+    "static/media/pp2.png": "/PORTFOLIO/static/media/pp2.95149cbd36d15c37ceab.png",
+    "static/media/pp6.png": "/PORTFOLIO/static/media/pp6.97b3454a4c132492cada.png",
+    "static/media/pp3.png": "/PORTFOLIO/static/media/pp3.98e8264194d50b085e59.png",
+    "static/media/pp4.png": "/PORTFOLIO/static/media/pp4.9c857c98780a63d0ca51.png",
+    "static/media/pp7.png": "/PORTFOLIO/static/media/pp7.3453ee904fa1cdd0518c.png",
+    "static/media/pp1.png": "/PORTFOLIO/static/media/pp1.bd9992bd283306dc0e90.png",
+    "static/media/GitHub-Logo.png": "/PORTFOLIO/static/media/GitHub-Logo.05525cd9027955dbe054.png",
+    "static/media/logo_1.png": "/PORTFOLIO/static/media/logo_1.17ca263df9aa1b0edf20.png",
+    "static/media/jate.jpg": "/PORTFOLIO/static/media/jate.b74dcc392fc3b6e3a305.jpg",
+    "static/media/frontend.png": "/PORTFOLIO/static/media/frontend.8092fc65d7ddcc1fa2c4.png",
+    "static/media/design.png": "/PORTFOLIO/static/media/design.861c85930dd71b77a1c7.png",
+    "index.html": "/PORTFOLIO/index.html",
+    "main.799a08ec.css.map": "/PORTFOLIO/static/css/main.799a08ec.css.map",
+    "main.024b243f.js.map": "/PORTFOLIO/static/js/main.024b243f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/PORTFOLIO/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.799a08ec.css",
+    "static/js/main.024b243f.js"
+  ]
+}
