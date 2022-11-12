@@ -1,13 +1,12 @@
 # PORTFOLIO
 ## WEB PREVIEW
-![webpreview](url)
+![webpreview](./src/Images/webpreview.png)
 ## MOBILE PREVIEW
-![webpreview](url)
+![mobilepreview](./src/Images/mobilepreview.png)
 ## DESCRIPTION
 In addition to being my working portfolio, this project was produced to provide myself with further exploration and gain experience with using ReactJS along with the tailwindCSS library. 
 
 ## QUESTIONS
-
 Don't hesitate to hit me up with an questions at jordanringsakabe@gmail.com 
 
 

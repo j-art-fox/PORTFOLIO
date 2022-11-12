@@ -30,13 +30,13 @@ export default function About() {
         <div class="container px-5 py-12 mx-auto">
           <div class="">
             <img
-              class="w-2/3 inline"
+              class="w-2/5 inline"
               src={images[imageIdx]}
               alt="An Image"
             />
           </div>
           <div class="bg-gray-100 shadow">
-            <h1 class="sm:text-3xl text-2xl py-3 font-medium title-font text-center text-gray-900 mb-20 transition-opacity">
+            <h1 class="sm:text-3xl text-2xl py-2 font-medium title-font text-center text-gray-900 mb-20 transition-opacity">
               Hi there!
               <br class="sm:block" />
               The name's Jay,
@@ -54,10 +54,10 @@ export default function About() {
                     Appealing Design
                   </h2>
                   <p class="leading-relaxed text-base">
-                    As a user, I know how frustrating it can be to navigate
-                    around a confusing, ineffective, and unappealing
-                    application. As a developer, I know how to then make it into
-                    something extraodinary customers and clients enjoy using.
+                    As a user, I know how frustrating navigating
+                    around a confusing and unappealing
+                    application is. As a developer, I know how to turn it into
+                    something your customers will enjoy using.
                   </p>
                   <Link
                     to="/work"
