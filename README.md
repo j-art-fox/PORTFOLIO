@@ -10,5 +10,5 @@ In addition to being my working portfolio, this project was produced to provide 
 Don't hesitate to hit me up with an questions at jordanringsakabe@gmail.com 
 
 ### LINKS
-[Deployed Application](https://j-art-fox.github.io/about)
-
+https://j-art-fox.github.io/PORTFOLIO
+https://github.com/j-art-fox/PORTFOLIO
