@@ -13,14 +13,14 @@ export default function Resume() {
               Let's be coworkers!
             </h1>
             <p class="leading-relaxed text-base m-5">
-              If you're looking for a people-lving and easy-to-work with web
+              If you're looking for a people-loving and easy-to-work with web
               developer whose passionate about bringing people together to unite
               around a common purpose, then look no further!
             </p>
             <div class="flex-col md:mt-4 mt-6">
               <button class="inline text-white bg-indigo-500 border-0 py-1 px-4 focus:outline-none hover:bg-indigo-600 rounded">
                 <a
-                  href="https://docs.google.com/document/d/1T1NfJmqtoAY-02tG9vOyUIrIdHbIlkTV6Jl_OjyYLe8/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1Hli8lSYZVygG_5i4FX9eifRObuFjoR_m0qq905Ji1NA/edit?usp=sharing"
                   class="white inline-flex items-center ml-4"
                 >
                   See Resume

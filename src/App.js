@@ -5,7 +5,7 @@ import Navbar from "./components/Nav/Navbar";
 import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import Github from "./components/Pages/Github";
-import { Navigate, Switch, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 
 function App() {
