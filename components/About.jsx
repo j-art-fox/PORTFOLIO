@@ -1,9 +1,9 @@
-import designIcon from "../../Assets/Images/design.png";
-import backEndIcon from "../../Assets/Images/backend.png";
-import frontEndIcon from "../../Assets/Images/frontend.png";
+import designIcon from "../public/Assets/Images/design.png";
+import backEndIcon from "../public/Assets/Images/backend.png";
+import frontEndIcon from "../public/Assets/Images/frontend.png";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import pp1 from "../public/Assets/Images/pp1.png
+import pp1 from "../public/Assets/Images/pp1.png";
 import pp2 from "../public/Assets/Images/pp2.png";
 import pp3 from "../public/Assets/Images/pp3.png";
 import pp4 from "../public/Assets/Images/pp4.png";
