@@ -2,16 +2,16 @@ import designIcon from "../../Assets/Images/design.png";
 import backEndIcon from "../../Assets/Images/backend.png";
 import frontEndIcon from "../../Assets/Images/frontend.png";
 import { useState, useEffect } from "react";
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import pp1 from "../../Assets/Images/pp1.png";
-import pp2 from "../../Assets/Images/pp2.png";
-import pp3 from "../../Assets/Images/pp3.png";
-import pp4 from "../../Assets/Images/pp4.png";
-import pp5 from "../../Assets/Images/pp5.png";
-import pp6 from "../../Assets/Images/pp6.png";
-import pp7 from "../../Assets/Images/pp7.png";
+import Link from "next/link";
+import pp1 from "../public/Assets/Images/pp1.png
+import pp2 from "../public/Assets/Images/pp2.png";
+import pp3 from "../public/Assets/Images/pp3.png";
+import pp4 from "../public/Assets/Images/pp4.png";
+import pp5 from "../public/Assets/Images/pp5.png";
+import pp6 from "../public/Assets/Images/pp6.png";
+import pp7 from "../public/Assets/Images/pp7.png";
 
-export default function About() {
+export default function AboutComponent() {
   const images = [pp1, pp2, pp3, pp4, pp5, pp6, pp7];
   const [imageIdx, setImage] = useState(0);
   useEffect(() => {
@@ -54,13 +54,13 @@ export default function About() {
                     Appealing Design
                   </h2>
                   <p className="leading-relaxed text-base">
-                    As a user, I know how frustrating navigating
-                    around a confusing and unappealing
-                    application is. As a developer, I know how to turn it into
-                    something your customers will enjoy using.
+                    As a user, I know how frustrating navigating around a
+                    confusing and unappealing application is. As a developer, I
+                    know how to turn it into something your customers will enjoy
+                    using.
                   </p>
                   <Link
-                    to="/work"
+                    href="/work"
                     className="mt-3 text-indigo-500 inline-flex items-center"
                   >
                     Learn More
@@ -90,7 +90,7 @@ export default function About() {
                     web presence and brand further into the market.
                   </p>
                   <Link
-                    to="/contact"
+                    href="/contact"
                     className="mt-3 text-indigo-500 inline-flex items-center"
                   >
                     Contact Me
@@ -115,10 +115,13 @@ export default function About() {
                     Back-end Development
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Need to set up a database for your web application? Trained in SQL, MongoDB, Express and database design, we'll get your server-side securely set up and processing data functioning in a jiffy.
+                    Need to set up a database for your web application? Trained
+                    in SQL, MongoDB, Express and database design, we'll get your
+                    server-side securely set up and processing data functioning
+                    in a jiffy.
                   </p>
                   <Link
-                    to="/work"
+                    href="/work"
                     className="mt-3 text-indigo-500 inline-flex items-center"
                   >
                     Learn More
